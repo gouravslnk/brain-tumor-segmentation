@@ -7,23 +7,23 @@ A deep learning-powered web application for automated brain tumor detection, seg
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.9.0-red.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## 📋 Overview
+##  Overview
 
 NeuroScan provides two main functionalities:
 
 1. **Brain Tumor Segmentation** - Precisely identifies and segments tumor regions in brain MRI scans using a custom U-Net architecture (BRISC-UNet)
 2. **Tumor Classification** - Classifies brain tumors into different categories using machine learning techniques with GLCM feature extraction
 
-## ✨ Features
+##  Features
 
-- 🎯 **Accurate Segmentation** - Deep learning-based tumor boundary detection
-- 🔍 **Multi-class Classification** - Categorizes tumors into different types
-- 🌐 **Web Interface** - User-friendly HTML interface for easy interaction
-- ⚡ **Fast Processing** - Optimized inference pipeline
-- 📊 **Visualization** - Clear visual outputs with segmentation masks and overlays
-- 🔧 **RESTful API** - Easy integration with other systems
+-  **Accurate Segmentation** - Deep learning-based tumor boundary detection
+-  **Multi-class Classification** - Categorizes tumors into different types
+-  **Web Interface** - User-friendly HTML interface for easy interaction
+-  **Fast Processing** - Optimized inference pipeline
+-  **Visualization** - Clear visual outputs with segmentation masks and overlays
+-  **RESTful API** - Easy integration with other systems
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Segmentation Module
 - **Model**: BRISC-UNet (Custom U-Net architecture)
@@ -37,7 +37,7 @@ NeuroScan provides two main functionalities:
 - **Input**: Preprocessed MRI images
 - **Output**: Tumor class prediction
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -102,7 +102,7 @@ brain-tumor-segmentation/
 └── README.md
 ```
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Segmentation API
 ```http
@@ -137,7 +137,7 @@ Response:
 }
 ```
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Backend**: FastAPI
 - **Deep Learning**: PyTorch, TorchVision
@@ -145,7 +145,7 @@ Response:
 - **ML Tools**: NumPy, joblib, PyMaxFlow
 - **Server**: Uvicorn (ASGI)
 
-## 📊 Model Information
+##  Model Information
 
 ### BRISC-UNet
 - Custom U-Net architecture optimized for brain MRI segmentation
@@ -158,7 +158,7 @@ Response:
 - Multiple texture features analyzed
 - Trained on curated brain tumor dataset
 
-## 🎓 Use Cases
+##  Use Cases
 
 - Medical research and education
 - Computer-aided diagnosis (CAD) systems
@@ -166,29 +166,19 @@ Response:
 - Academic projects and presentations
 - Radiology workflow assistance
 
-## 📝 Notes
+##  Notes
 
 - This application is intended for educational and research purposes
 - Not a substitute for professional medical diagnosis
 - Always consult qualified healthcare professionals for medical decisions
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👥 Authors
-
-- Gourav Singh - [GitHub](https://github.com/gouravslnk)
-
-## 🙏 Acknowledgments
-
-- Brain tumor datasets from medical imaging repositories
-- PyTorch community for deep learning frameworks
-- FastAPI for the excellent web framework
 
 ---
 
